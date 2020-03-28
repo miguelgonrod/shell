@@ -1,0 +1,5 @@
+#! /bin/bash
+read -p "¿como quieres llamar tu nuevo directorio?" nombre
+mkdir -p "$nombre"
+cd "$nombre"
+echo "ya se creo la nueva carpeta"
